@@ -42,11 +42,11 @@
     "enzyme-adapter-react-16": "1.15.7",
     "husky": "8.0.3",
     "prop-types": "15.8.1",
-    "react": "16.14.0",
-    "react-dom": "16.14.0",
+    "react": "18.2.0",
+    "react-dom": "18.2.0",
     "react-redux": "7.2.9",
     "react-router-dom": "5.3.4",
-    "react-test-renderer": "16.14.0",
+    "react-test-renderer": "18.2.0",
     "reactifex": "1.1.1",
     "redux": "4.2.1",
     "semantic-release": "19.0.5"
@@ -61,7 +61,7 @@
   "peerDependencies": {
     "@edx/frontend-platform": "^2.0.0 || ^3.0.0",
     "prop-types": "^15.5.10",
-    "react": "^16.9.0",
-    "react-dom": "^16.9.0"
+    "react": "^16.9.0 || ^18.0.0",
+    "react-dom": "^16.9.0 || ^18.0.0"
   }
 }
