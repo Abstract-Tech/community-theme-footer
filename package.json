@@ -1,6 +1,6 @@
 {
   "name": "@abstract-tech/community-theme-footer",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "Footer component for use when building Open edX frontend applications",
   "main": "dist/index.js",
   "publishConfig": {
