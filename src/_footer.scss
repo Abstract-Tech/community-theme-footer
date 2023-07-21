@@ -1,62 +1,80 @@
-$gray-footer: #fcfcfc !default;
-
-.footer {
-  background-color: $gray-footer;
-}
-
 .site-footer {
-  background-color: #f8f9fa; /* You can use your preferred color here */
-  color: #212529; /* And here too */
   display: flex;
   flex-direction: column;
+  justify-content: space-between;
+  border-top: 1px solid #ddd;
+  padding: 20px;
+}
+
+.container-fluid {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
+.footer-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100%;
+}
+
+.footer-upper {
+  padding: 20px 0;
+  display: flex;
+  justify-content: space-between;
   align-items: center;
-  justify-content: center;
 }
 
-.site-footer .footer-logo {
-  max-height: 60px; /* Increase size of logo */
+.footer-buttons {
+  display: flex;
+  gap: 10px;
 }
 
-.footer-section h2 {
-  color: #25a78e; /* Change color of headings */
+.footer-buttons a {
+  text-decoration: none;
+  color: inherit;
+  padding-right: 20px;
 }
 
-.footer-section a {
-  color: #25a78e; /* Change color of links */
-  margin-right: 10px; /* Add space between icons */
-  p{
-    color: black !important;
-  }
+.footer-logos {
+  display: flex;
+  gap: 10px;
+}
+
+.footer-logos i {
+  font-size: 24px;
+}
+
+.footer-rights {
+  text-align: right;
+  font-size: 12px;
+}
+
+.footer-lower {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  padding: 20px 0;
 }
 
 .footer-logo {
-  max-height: 45px;
+  width: 100px;
+  height: auto;
 }
 
-.contact-info {
-  white-space: pre-wrap;
+.footer-license {
+  font-size: 12px;
 }
 
-.container-footer {
-  display: flex;
-  justify-content: space-between;
-}
-
-.footer-section {
-  text-align: justify;
-}
-
-.footer-section.about {
-  text-align: left;
-  flex: 1;
-}
-
-.footer-section.contact-info {
-  text-align: center;
-  flex: 1;
-}
-
-.footer-section.social {
+.footer-text {
+  max-width: 300px;
+  font-size: 12px;
   text-align: right;
-  flex: 1;
+}
+
+.footer-divider {
+  width: 100%;
+  height: 2px; /* adjust as needed */
+  background: #ddd; /* adjust as needed */
 }
