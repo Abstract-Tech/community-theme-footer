@@ -52,10 +52,7 @@ class SiteFooter extends React.Component {
               <div class="footer-upper">
                 <div class="footer-buttons">
                   <a href="#">What we do</a>
-                  <a href="#">Donate</a>
-                  <a href="#">Help</a>
                   <a href="#">Contact</a>
-                  <a href="#">Honor code</a>
                 </div>
                 <div>
                   <div class="footer-logos">
