@@ -51,8 +51,8 @@ class SiteFooter extends React.Component {
             <div class="footer-content">
               <div class="footer-upper">
                 <div class="footer-buttons">
-                  <a href="#">What we do</a>
-                  <a href="#">Contact</a>
+                  <a href="/about">What we do</a>
+                  <a href="/contact">Contact</a>
                 </div>
                 <div>
                   <div class="footer-logos">
