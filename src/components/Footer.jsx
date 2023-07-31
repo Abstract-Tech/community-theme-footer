@@ -51,7 +51,7 @@ class SiteFooter extends React.Component {
             <div class="footer-content">
               <div class="footer-upper">
                 <div class="footer-buttons">
-                  <a href="/about">What we do</a>
+                  <a href={config.LMS_BASE_URL + "/contact"}>What we do</a>
                   <a href="/contact">Contact</a>
                 </div>
                 <div>
